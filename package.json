@@ -1,0 +1,15 @@
+{
+  "name": "cesar-cipher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cipher": "nodemon src/CaesarCipher.js",
+    "calculator": "nodemon src/Calculator.js"
+,   "imc": "nodemon src/IMC.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
